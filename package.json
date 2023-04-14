@@ -1,0 +1,23 @@
+{
+  "name": "a04-kimb112",
+  "version": "1.0.0",
+  "description": "This assignment will help you stand up a web API using Express and the module that you produced for a03.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a04-kimb112.git"
+  },
+  "author": "@kimb112",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a04-kimb112/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a04-kimb112#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "minimist": "^1.2.8"
+  }
+}
