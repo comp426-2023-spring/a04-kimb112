@@ -36,3 +36,7 @@ app.post("/app/rps/play", (req, res) => {
 app.post("/app/rpsls/play", (req, res) => {
     res.status(200).send(JSON.stringify(rpsls(req.body.shot)));
 })
+
+app.get("*", (req, res) => {
+    res.status(404).send("404 NOT FOUND");
+})
